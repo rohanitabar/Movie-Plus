@@ -2,10 +2,10 @@
     font-family: iranyekan;
     font-style: normal;
     font-weight: bold;
-    src: url('/fonts/iranyekan/eot/iranyekanwebboldfanum.eot');
-    src: url('/fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('/fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('/fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+    src: url('../fonts/iranyekan/eot/iranyekanwebboldfanum.eot');
+    src: url('../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
 
 *{
