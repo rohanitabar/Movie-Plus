@@ -141,6 +141,7 @@ a{
     padding-right: 10px;
     width: 100%;
     top:-400px;
+    text-align: right;
 }
 .posts1 .title{
     text-align: right;
@@ -148,7 +149,7 @@ a{
     font-size: 35px;
 }
 .posts1 .wraper{
-    display: flex;
+    display: inline-block;
     justify-content: right;
     margin-right: 10px;
     padding-left: 40px;
