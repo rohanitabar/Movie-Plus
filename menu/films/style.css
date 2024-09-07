@@ -35,6 +35,9 @@ display: inline;
     background-color: #585858;
     color: #ffffff;
 }
+.menu a{
+    text-decoration: none;
+}
 .sub_menu{
     background-color: #000000;
     color: #e8e8e8;
