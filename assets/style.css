@@ -13,7 +13,6 @@
 }
 body{
     margin: 0px;
-    font-family: iranyekan;
     background-color: #000000;
     color:#fff
 
@@ -26,6 +25,7 @@ font-weight: bold;
 text-align: right;
 margin-top: auto;
 display: inline;
+font-family: iranyekan;
 }
 .logo{
     width: 50px;
