@@ -84,6 +84,7 @@ a{
     font-weight: bold;
     margin-top: -420px;
     margin-left: 500px;
+    font-family: iranyekan;
 }
 .t1{
     width: 300px;
@@ -155,10 +156,11 @@ a{
     border-left: 2px solid #e4e4e4;
 }
 .p2 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 600px;
+    font-family: iranyekan;
 }
 .dastan1{
     width: 590px;
@@ -172,18 +174,6 @@ a{
     border-radius: 15px;
 
     font-weight: bold;
-}
-.p2{
-    width: 980px;
-    height: 500px;
-    border-top: 2px solid #e4e4e4;
-    border-left: 2px solid #e4e4e4;
-}
-.p2 h5{
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: -420px;
-    margin-left: 600px;
 }
 .dastan1{
     width: 590px;
@@ -205,10 +195,11 @@ a{
     border-left: 2px solid #e4e4e4;
 }
 .p22 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 520px;
+    font-family: iranyekan;
 }
 .p222{
     width: 980px;
@@ -217,10 +208,11 @@ a{
     border-left: 2px solid #e4e4e4;
 }
 .p222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 570px;
+    font-family: iranyekan;
 }
 .p222 p{
     padding-top: 20px;
@@ -232,10 +224,11 @@ a{
     border-left: 2px solid #e4e4e4;
 }
 .p2222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 470px;
+    font-family: iranyekan;
 }
 .p22222{
     width: 980px;
@@ -244,10 +237,11 @@ a{
     border-left: 2px solid #e4e4e4;
 }
 .p22222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 510px;
+    font-family: iranyekan;
 }
 .p222222{
     width: 980px;
@@ -256,10 +250,11 @@ a{
     border-left: 2px solid #e4e4e4; 
 }
 .p222222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
     margin-left: 370px;
+    font-family: iranyekan;
 }
 .p222222{
     width: 980px;
@@ -268,10 +263,11 @@ a{
     border-left: 2px solid #e4e4e4; 
 }
 .p222222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
-    margin-left: 420px;
+    margin-left: 390px;
+    font-family: iranyekan;
 }
 .p2222222{
     width: 980px;
@@ -280,10 +276,24 @@ a{
     border-left: 2px solid #e4e4e4; 
 }
 .p2222222 h5{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: -420px;
-    margin-left: 350px;
+    margin-left: 320px;
+    font-family: iranyekan;
+}
+.p22222222{
+    width: 980px;
+    height: 500px;
+    border-top: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4; 
+}
+.p22222222 h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 370px;
+    font-family: iranyekan;
 }
 .dastan11{
     width: 590px;
@@ -305,6 +315,19 @@ a{
     margin-left: 65px;
     text-align: right;
     padding-top: 30px;
+    box-sizing: border-box;
+    padding-right:10px;
+    border-radius: 15px;
+    font-family:url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+.dastan1111{
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top:7px;
     box-sizing: border-box;
     padding-right:10px;
     border-radius: 15px;
