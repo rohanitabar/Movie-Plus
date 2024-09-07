@@ -172,6 +172,31 @@ a{
 
     font-weight: bold;
 }
+.p2{
+    width: 980px;
+    height: 500px;
+    border-top: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4;
+}
+.p2 h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 600px;
+}
+.dastan1{
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-right:10px;
+    border-radius: 15px;
+    font-family:url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
 .p22{
     width: 980px;
     height: 500px;
@@ -182,7 +207,7 @@ a{
     font-size: 25px;
     font-weight: bold;
     margin-top: -420px;
-    margin-left: 550px;
+    margin-left: 520px;
 }
 .p222{
     width: 980px;
@@ -223,6 +248,42 @@ a{
     margin-top: -420px;
     margin-left: 510px;
 }
+.p222222{
+    width: 980px;
+    height: 500px;
+    border-top: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4; 
+}
+.p222222 h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 370px;
+}
+.p222222{
+    width: 980px;
+    height: 500px;
+    border-top: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4; 
+}
+.p222222 h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 420px;
+}
+.p2222222{
+    width: 980px;
+    height: 500px;
+    border-top: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4; 
+}
+.p2222222 h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 350px;
+}
 .dastan11{
     width: 590px;
     height: 100px;
@@ -236,7 +297,19 @@ a{
     font-family:url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
 }
-
+.dastan111{
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right:10px;
+    border-radius: 15px;
+    font-family:url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
 .zotopia1{
     border-radius: 10px;
 }
