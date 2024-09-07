@@ -17,12 +17,12 @@
 body{
     margin: 0px;
     background-color: #000000;
-    color:#fff
+    color:#fff;
 
 }
 .menu{
     background-color: #000000;
-font-size: 20px;
+font-size: 15px;
 color: #e8e8e8;
 font-weight: bold;
 text-align: right;
@@ -169,7 +169,7 @@ a{
     box-sizing: border-box;
     padding-right:10px;
     border-radius: 15px;
-    font-family:url(./fonts/Cinema.Font.ttf);
+
     font-weight: bold;
 }
 .p22{
