@@ -339,10 +339,24 @@ a{
 .zotopia1{
     border-radius: 10px;
     margin-bottom: -250%;
-    width: 270px;
 }
 
 .zotopia1 .title{
+    font-size: 15px;
+    background-color: #000000a1;
+    width: 100%;
+    text-align: center;
+}
+
+.zotopia2{
+    border-radius: 10px;
+    margin-bottom: -100%;
+    width: 73%;
+}
+.aside1{
+    margin-top: 25%;
+}
+.zotopia2 .title{
     font-size: 15px;
     background-color: #000000a1;
     width: 100%;
