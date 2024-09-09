@@ -180,6 +180,31 @@ a{
     padding: 22px 10px;
 }
 
+.posts1 .card2{
+    width: 150px;
+    height: 400px;
+    box-shadow: 0px 4px 30px #d5d4d1;
+    border-radius: 10px;
+    background-color: #ffc400;
+    text-decoration:solid;
+    text-align: center;
+    font-family: iranyekan;
+}
+.card2 .thumbnail{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card2 .overlay{
+    background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
+}
+.card2:hover{
+    background-color: #9b7700;
+}
+.card2-body{
+    padding: 22px 10px;
+}
+
 .posts1 .card3{
     width: 150px;
     height: 400px;
@@ -199,7 +224,7 @@ a{
     background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
 }
 .card3:hover{
-    background-color: #4ca800;
+    background-color: #408d01;
 }
 .card3-body{
     padding: 22px 10px;
@@ -217,7 +242,7 @@ footer{
     width: 100%;
     height: 300px;
     border-top: 2px solid #fff;
-    margin-top: -350px;
+    margin-top: -25%;
 }
 .address{
     font-size: 20px;
