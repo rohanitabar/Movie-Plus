@@ -238,6 +238,43 @@ a{
 .h1{
 font-size: 70px;
 }
+.First_name{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 15px;
+    font-family: iranyekan;
+}
+.Number{
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 3%;
+    font-size: 15px;
+    font-family: iranyekan;
+}
+.Submit{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+    border: 2px solid #0f9a00;
+    margin-left: 58.5%;
+    margin-top: 3%;
+    font-family: iranyekan;
+}
+.Cancell{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+    border: 2px solid #0f9a00;
+    margin-left: 59%;
+    margin-top: 1%;
+    font-family: iranyekan;
+}
+
 footer{
     width: 100%;
     height: 300px;
