@@ -338,6 +338,8 @@ a{
 }
 .zotopia1{
     border-radius: 10px;
+    margin-bottom: -250%;
+    width: 270px;
 }
 
 .zotopia1 .title{
@@ -345,6 +347,7 @@ a{
     background-color: #000000a1;
     width: 100%;
     text-align: center;
+    margin-bottom: -7%;
 }
 
 footer{
