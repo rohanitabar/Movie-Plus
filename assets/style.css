@@ -64,10 +64,8 @@ a{
     color: inherit;
 }
 .elan{
-    border-collapse:separate;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 15px;
+    margin-top:3%;
+    margin-left: 10%;
 }
 .elan td {
     text-align: center;
@@ -78,8 +76,10 @@ a{
     margin-top: 10px;
     border-radius: 10px;
     border: 3px solid #fcff9c;
-    box-shadow: #00ffb7;
-}
+    box-shadow: #00ffb7;}
+.elan a{
+        z-index: 10;
+    }
 .satr3{
     margin-left: 150px;
 }
@@ -94,8 +94,7 @@ a{
 }
 .posts{
     position: relative;
-    top: -417px;
-    padding-top: 417px;
+
     margin-top: 50px;
     padding-right: 10px;
     width: 100%;
@@ -138,10 +137,8 @@ a{
 }
 .posts1{
     position: relative;
-    margin-top: 0px;
     padding-right: 10px;
     width: 100%;
-    top:-400px;
     text-align: right;
 }
 .posts1 .title{
