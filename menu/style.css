@@ -16,9 +16,9 @@
 }
 body{
     margin: 0px;
-    background-color: #000000;
+    background-color: #101014;
     color:#fff;
-
+    overflow-x: hidden;
 }
 .menu{
     background-color: #000000;
@@ -70,7 +70,7 @@ a{
     width: 980px;
     height:5000px;
     margin-left: 275px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 .p1{
