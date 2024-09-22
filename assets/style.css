@@ -24,10 +24,9 @@ body {
 .menu {
     background-color: #101014;
     font-size: 15px;
+    padding-top: -30px;
     color: #afafaf;
-    font-weight: bold;
     text-align: right;
-    margin-bottom: 500px;
     display: inline;
     font-family: iranyekan;
 }
@@ -40,16 +39,16 @@ body {
     width: 50px;
     height: 50px;
     display: inline;
-    margin-top: 25px;
-}
-
-.menu ul {
-    margin: 0px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .menu ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 35px;
+}
+.menu ul{
+    margin-top: -40px;
 }
 
 .menu ul li:hover {
@@ -67,7 +66,6 @@ body {
 
 .sub_menu li {
     width: 100px;
-    margin: 0px !important;
 }
 
 .dropdown_menu:hover ul {
@@ -164,7 +162,9 @@ a {
     font-family: iranyekan;
     margin-top: -15px;
 }
-
+.posts h3{
+    font-family: iranyekan;
+}
 .card .thumbnail {
     width: 100%;
     height: 200px;
@@ -207,7 +207,9 @@ a {
     margin-right: 10px;
     padding-left: 40px;
 }
-
+.posts1 h3{
+    font-family: iranyekan;
+}
 .posts1 .card1 {
     width: 200px;
     height: 320px;
