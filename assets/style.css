@@ -3,107 +3,133 @@
     font-style: normal;
     font-weight: bold;
     src: url('../fonts/iranyekan/eot/iranyekanwebboldfanum.eot');
-    src: url('../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('../fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+    src: url('../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0px;
     background-color: #101014;
-    color:#fff;
+    color: #fff;
     overflow-x: hidden;
 }
-.menu{
+
+.menu {
     background-color: #101014;
-font-size: 15px;
-color: #e8e8e8;
-font-weight: bold;
-text-align: right;
-margin-bottom: 500px;
-display: inline;
-font-family: iranyekan;
+    font-size: 15px;
+    color: #afafaf;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 500px;
+    display: inline;
+    font-family: iranyekan;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
     display: inline;
     margin-top: 25px;
 }
-.menu ul{
+
+.menu ul {
     margin: 0px;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
     margin-right: 10px;
 }
-.menu ul li:hover{
-    background-color: #585858;
+
+.menu ul li:hover {
     color: #ffffff;
+    transition: ease-in 0.2s;
 }
-.sub_menu{
+
+.sub_menu {
     background-color: #101014;
-    color: #e8e8e8;
-    display:none;
+    color: #949494;
+    display: none;
     position: absolute;
     margin-right: -50px !important;
 }
-.sub_menu li{
+
+.sub_menu li {
     width: 100px;
-    margin: 0px !important;    
+    margin: 0px !important;
 }
-.dropdown_menu:hover ul{
-display: block;
-}
-.dropdown_menu:hover li{
+
+.dropdown_menu:hover ul {
     display: block;
 }
-.dropdown_menu a{
+
+.dropdown_menu:hover li {
+    display: block;
+}
+
+.dropdown_menu a {
     text-decoration: none;
 }
-a{
+
+a {
     color: inherit;
 }
-.elan{
-    margin-top:3%;
-    margin-left: 10%;
+
+.elan {
+    margin-top: 3%;
+    margin-left: 75px;
     margin-bottom: 25px;
 }
+
 .elan td {
     text-align: center;
 }
+
 .elan img {
     max-width: 100%;
-    height:250px;
+    height: 250px;
     margin-top: 10px;
     border-radius: 10px;
-transform: scale(1);
-opacity: 1;}
-.elan img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.elan img:hover {
     overlay: 25%;
 }
-.elan a{
-        z-index: 10;
-    }
-.satr3{
+
+.elan a {
+    z-index: 10;
+}
+
+.satr3 {
     margin-left: 150px;
 }
-.cars3{
-    margin-left: 150px;
+
+.cars3 {
+    margin-left: 50px;
 }
-.DaftarYaddasht{
-    margin-left: 200px;
+
+.DaftarYaddasht {
+    margin-left: 50px;
 }
-.mankan{
+
+.mankan {
     margin-left: 210px;
 }
-.posts{
+
+.posts {
     position: relative;
     height: 450px;
     margin-top: 50px;
@@ -113,152 +139,179 @@ opacity: 1;}
     background-color: #1c1c22 !important;
     padding-top: -50px;
 }
-.posts .title{
+
+.posts .title {
     text-align: right;
     margin-right: 10px;
     font-size: 20px;
     padding-top: 30px;
 }
-.posts .wraper{
+
+.posts .wraper {
     display: flex;
     justify-content: right;
     margin-right: 10px;
     padding-left: 40px;
 }
-.posts .card{
+
+.posts .card {
     width: 200px;
     height: 320px;
     border-radius: 10px;
     background-color: #3300ff;
-    text-decoration:solid;
+    text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
-    margin-top:-15px;
+    margin-top: -15px;
 }
-.card .thumbnail{
+
+.card .thumbnail {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.card .overlay{
-    background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
+
+.card .overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0)0%, rgba(0, 0, 0, 0.5)52.6%, #000000 100%);
 }
-.card:hover{
+
+.card:hover {
     color: #ffee00;
-    transition:ease-in-out;
+    transition: ease-in 0.2s ;
 }
-.card-body{
+
+.card-body {
     padding: 22px 10px;
 }
-.posts1{
+
+.posts1 {
     position: relative;
     padding-right: 10px;
     width: 100%;
     height: 450px;
     text-align: right;
     background-color: #1c1c22 !important;
-    padding-top:10px;
+    padding-top: 10px;
     margin-top: 25px;
 }
-.posts1 .title{
+
+.posts1 .title {
     text-align: right;
     margin-right: 10px;
     font-size: 25px;
 }
-.posts1 .wraper{
+
+.posts1 .wraper {
     display: inline-block;
     justify-content: right;
     margin-right: 10px;
     padding-left: 40px;
 }
-.posts1 .card1{
+
+.posts1 .card1 {
     width: 200px;
     height: 320px;
     border-radius: 10px;
     background-color: #ff0000;
-    text-decoration:solid;
+    text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
-    margin-top:-15px;
+    margin-top: -15px;
 }
-.card1 .thumbnail{
+
+.card1 .thumbnail {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.card1 .overlay{
-    background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
+
+.card1 .overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0)0%, rgba(0, 0, 0, 0.5)52.6%, #000000 100%);
 }
-.card1:hover{
+
+.card1:hover {
     color: #00ff15;
-    transition:ease-in-out;
+    transition: ease-in 0.2s ;
 }
-.card1-body{
+
+.card1-body {
     padding: 22px 10px;
 }
 
-.posts1 .card2{
+.posts1 .card2 {
     width: 200px;
     height: 320px;
     border-radius: 10px;
     background-color: #ffc400;
-    text-decoration:solid;
+    text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
-    padding-top:-30px;
+    padding-top: -30px;
     margin-top: -15px;
 }
-.card2 .thumbnail{
+
+.card2 .thumbnail {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.card2 .overlay{
-    background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
+
+.card2 .overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0)0%, rgba(0, 0, 0, 0.5)52.6%, #000000 100%);
 }
-.card2:hover{
-    transition:ease-in-out;
-    color: #000000;  
+
+.card2:hover {
+    transition: ease-in 0.2s ;
+    color: #000000;
 }
-.card2-body{
+
+.card2-body {
     padding: 22px 10px;
 }
 
-.posts1 .card3{
+.posts1 .card3 {
     width: 200px;
     height: 320px;
     border-radius: 10px;
     background-color: #42e003;
-    text-decoration:solid;
+    text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
     margin-top: -15px;
 }
-.card3 .thumbnail{
+
+.card3 .thumbnail {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.card3 .overlay{
-    background: linear-gradient(180deg,rgba(255,255,255,0)0%,rgba(0,0,0,0.5)52.6%,#000000 100%);
+
+.card3 .overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0)0%, rgba(0, 0, 0, 0.5)52.6%, #000000 100%);
 }
-.card3:hover{
-    transition:ease-in-out;
+
+.card3:hover {
+    transition: ease-in 0.2s ;
     color: #008cff;
 }
-.card3-body{
+
+.card3-body {
     padding: 22px 10px;
 }
-#irani{
+
+#irani {
     text-decoration: none;
 }
-#koodak{
+
+#koodak {
     text-decoration: none;
 }
-.h1{
-font-size: 70px;
+
+.h1 {
+    font-size: 70px;
 }
-.First_name{
+
+.First_name {
     width: 20%;
     height: 50%;
     text-align: center;
@@ -267,7 +320,8 @@ font-size: 70px;
     font-size: 15px;
     font-family: iranyekan;
 }
-.Number{
+
+.Number {
     width: 20%;
     height: 30%;
     text-align: center;
@@ -276,7 +330,8 @@ font-size: 70px;
     font-size: 15px;
     font-family: iranyekan;
 }
-.Submit{
+
+.Submit {
     color: #ffffff;
     background-color: #000000;
     font-size: 15px;
@@ -285,7 +340,8 @@ font-size: 70px;
     margin-top: 3%;
     font-family: iranyekan;
 }
-.Cancell{
+
+.Cancell {
     color: #ffffff;
     background-color: #000000;
     font-size: 15px;
@@ -294,25 +350,41 @@ font-size: 70px;
     margin-top: 1%;
     font-family: iranyekan;
 }
-.moshahedeh{
+
+.moshahedeh {
     width: 70px;
     height: 20px;
     color: #ffffff;
     background-color: transparent;
-    margin-right: 95%;
+    margin-right: 90%;
     padding-top: 50px;
-
+    font-family: iranyekan;
+    transition: ease-in 0.2s ;
 }
-.moshahedeh:hover{
+.moshahedeh1{
+    width: 70px;
+    height: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    margin-left:50px;
+    font-family: iranyekan;
+    transition: ease-in 0.2s ;
+}
+.moshahedeh:hover {
     color: #008cff;
 }
-footer{
+.moshahedeh1:hover {
+    color: #008cff;
+}
+
+footer {
     width: 100%;
     height: 15%;
     border-top: 2px solid #fff;
     margin-top: 2%;
 }
-.address{
+
+.address {
     font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
@@ -326,7 +398,8 @@ footer{
     padding-right: 10px;
     margin-top: 15px;
 }
-.teleghpone{
+
+.teleghpone {
     font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
@@ -340,12 +413,14 @@ footer{
     padding-right: 10px;
     margin-top: 15px;
 }
-.tel{
+
+.tel {
     margin-left: 500px;
     margin-bottom: -40px;
     margin-right: 10px;
 }
-.tel1{
+
+.tel1 {
     display: inline-block;
     margin-bottom: -40px;
     margin-right: 10px;
