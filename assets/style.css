@@ -128,6 +128,91 @@ a {
     margin-left: 210px;
 }
 
+.box {
+    background-color: #1c1c22;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 1000px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+.film_1{
+    background-color: #1c1c22;
+    color:#fff;
+    width: 150px;
+    height: 35px;
+    margin-left: 420px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+.janr {
+    text-align: center;
+    background-color: #1c1c22;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 330px;
+    font-size: 15px;
+    margin-top:2px;
+}
+
+.janr::selection {
+    background-color: #000000;
+}
+.country{
+    text-align: center;
+    background-color: #1c1c22;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 250px;
+    font-size: 15px;
+    margin-top: -24px;
+}
+.type{
+    text-align: center;
+    background-color: #1c1c22;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 170px;
+    font-size: 15px;
+    margin-top: -34px; 
+}
+.star{
+    text-align: center;
+    background-color: #1c1c22;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 90px;
+    font-size: 15px;
+    margin-top: -37px; 
+}
+.button{
+    margin-top: -45px;
+}
+.serch{
+    border: 1px solid #0f9a00;
+    background-color: #1c1c22;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    font-family: iranyekan;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.serch:hover{
+    background-color: #0f9a00;
+    transition: ease-in 0.3s 0.55s;
+}
 .posts {
     position: relative;
     height: 450px;
@@ -136,7 +221,6 @@ a {
     width: 100%;
     margin: 0px;
     background-color: #1c1c22 !important;
-    padding-top: -50px;
 }
 
 .posts .title {
@@ -155,7 +239,7 @@ a {
 
 .posts .card {
     width: 200px;
-    height: 320px;
+    height: 350px;
     border-radius: 10px;
     background-color: #3300ff;
     text-decoration: solid;
@@ -195,7 +279,6 @@ a {
     text-align: right;
     background-color: #1c1c22 !important;
     padding-top: 10px;
-    margin-top: 25px;
 }
 
 .posts1 .title {
@@ -217,13 +300,12 @@ a {
 
 .posts1 .card1 {
     width: 200px;
-    height: 320px;
+    height: 350px;
     border-radius: 10px;
     background-color: #ff0000;
     text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
-    margin-top: -15px;
 }
 
 .card1 .thumbnail {
@@ -247,7 +329,7 @@ a {
 
 .posts1 .card2 {
     width: 200px;
-    height: 320px;
+    height: 350px;
     border-radius: 10px;
     background-color: #ffc400;
     text-decoration: solid;
@@ -278,7 +360,7 @@ a {
 
 .posts1 .card3 {
     width: 200px;
-    height: 320px;
+    height: 350px;
     border-radius: 10px;
     background-color: #42e003;
     text-decoration: solid;
@@ -305,7 +387,31 @@ a {
 .card3-body {
     padding: 22px 10px;
 }
+.posts2 {
+    position: relative;
+    padding-right: 10px;
+    width: 100%;
+    text-align: right;
+    background-color: #1c1c22 !important;
+    padding-top: 10px;
+}
 
+.posts2 .title {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.posts2 .wraper {
+    display: inline-block;
+    justify-content: right;
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+.posts2 h3 {
+    font-family: iranyekan;
+}
 #irani {
     text-decoration: none;
 }
@@ -389,9 +495,9 @@ a {
 
 footer {
     width: 100%;
-    height: 15%;
+    height: 200px;
     border-top: 2px solid #fff;
-    margin-top: 2%;
+    background-color: #1c1c22;
 }
 
 .address {
