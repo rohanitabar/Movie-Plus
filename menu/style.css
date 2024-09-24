@@ -146,6 +146,7 @@ a{
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
     font-family: iranyekan;
+    border-radius: 10px;
 }
 .download:hover{
     background-color: #0f9a00;

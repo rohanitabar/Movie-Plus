@@ -288,6 +288,7 @@ a {
     text-align: right;
     background-color: #1c1c22 !important;
     padding-top: 10px;
+    margin-bottom: 0px !important;
 }
 
 .posts1 .title {
@@ -399,8 +400,9 @@ a {
 
 .posts2 {
     width: 100%;
-    height: 4600px;
-    margin-left: 360px;
+    height: 10900px;
+    margin-bottom: 20px;
+    margin-left: 280px;
     background-color: #1c1c22 !important;
 }
 
@@ -487,6 +489,7 @@ a {
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
     font-family: iranyekan;
+    border-radius: 10px;
 }
 
 .download:hover {
