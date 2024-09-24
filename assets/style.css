@@ -9,7 +9,17 @@
         /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
         url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: statik;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/static/EduAUVICWANTGuides-SemiBold.ttf');
+    src: url('../fonts/static/EduAUVICWANTGuides-Medium.ttf') format('embedded-ttf'),
+        /* IE6-8 */
+        url('../fonts/static/EduAUVICWANTGuides-Bold.ttf') format('ttf'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/OFL.txt') format('truetype');
+}
 * {
     box-sizing: border-box;
 }
@@ -405,43 +415,65 @@ a {
     background-color: #1c1c22 !important;
     margin-top: -20px;
 }
-.main-2{
+
+.main-2 {
     display: inline-block;
     width: 290px;
     height: 10900px;
     background-color: #1c1c22;
 }
-.main-sidebar{
-display: block;
-margin-top: -10900px;
+
+.main-sidebar {
+    display: block;
+    margin-top: -10900px;
 }
-.beroz{
+
+.beroz {
     width: 275px;
     height: 50px;
     background-color: #3b3b3b;
     color: #bdbdbd;
-  font-weight: 700;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  font-family: iranyekan;
-  box-shadow: #22232c;
-  margin-left: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: iranyekan;
+    box-shadow: #22232c;
+    margin-left: 1px;
 }
-.beroz h3{
+
+.beroz h3 {
     padding-top: 15px;
     padding-left: 75px;
 }
-.img-1{
+.img-1-1{
+    position: relative;
+}
+.img-1 {
     width: 275px;
     height: 150px;
     border-radius: 5px;
+    position: relative;
 }
-.img-2{
+.ti-1{
+    position: absolute;
+    font-size: 20px;
+    background-color: #000000a1;
+    height: 25px;
+    margin-top: -29px;
+    width: 275px;
+    text-align: center;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-top:2px;
+    font-family: statik;
+}
+.img-2 {
     width: 275px;
     height: 150px;
     border-radius: 5px;
     margin-top: 10px;
 }
+
 .p1 {
     width: 1000px;
     height: 500px;
@@ -641,7 +673,7 @@ a {
 }
 
 .p22222 {
-    width: 980px;
+    width: 1000px;
     height: 500px;
     background-color: #23232b !important;
     margin-top: 20px;
@@ -671,7 +703,7 @@ a {
 }
 
 .p222222 {
-    width: 980px;
+    width: 1000px;
     height: 500px;
     background-color: #23232b !important;
     margin-top: 20px;
@@ -686,7 +718,7 @@ a {
 }
 
 .p2222222 {
-    width: 980px;
+    width: 1000px;
     height: 500px;
     background-color: #23232b !important;
     margin-top: 20px;
@@ -701,7 +733,7 @@ a {
 }
 
 .p22222222 {
-    width: 980px;
+    width: 1000px;
     height: 500px;
     background-color: #23232b !important;
     margin-top: 20px;
