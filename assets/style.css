@@ -136,9 +136,10 @@ a {
     margin-left: 150px;
     border-radius: 15px;
 }
-.film_1{
+
+.film_1 {
     background-color: #1c1c22;
-    color:#fff;
+    color: #fff;
     width: 150px;
     height: 35px;
     margin-left: 420px;
@@ -147,6 +148,7 @@ a {
     font-size: 15px;
     text-align: center;
 }
+
 .janr {
     text-align: center;
     background-color: #1c1c22;
@@ -156,13 +158,14 @@ a {
     border-radius: 10px;
     margin-left: 330px;
     font-size: 15px;
-    margin-top:2px;
+    margin-top: 2px;
 }
 
 .janr::selection {
     background-color: #000000;
 }
-.country{
+
+.country {
     text-align: center;
     background-color: #1c1c22;
     color: #fff;
@@ -173,7 +176,8 @@ a {
     font-size: 15px;
     margin-top: -24px;
 }
-.type{
+
+.type {
     text-align: center;
     background-color: #1c1c22;
     color: #fff;
@@ -182,9 +186,10 @@ a {
     border-radius: 10px;
     margin-left: 170px;
     font-size: 15px;
-    margin-top: -34px; 
+    margin-top: -34px;
 }
-.star{
+
+.star {
     text-align: center;
     background-color: #1c1c22;
     color: #fff;
@@ -193,12 +198,14 @@ a {
     border-radius: 10px;
     margin-left: 90px;
     font-size: 15px;
-    margin-top: -37px; 
+    margin-top: -37px;
 }
-.button{
+
+.button {
     margin-top: -45px;
 }
-.serch{
+
+.serch {
     border: 1px solid #0f9a00;
     background-color: #1c1c22;
     color: #fff;
@@ -209,10 +216,12 @@ a {
     border-radius: 10px;
     margin-left: 15px;
 }
-.serch:hover{
+
+.serch:hover {
     background-color: #0f9a00;
     transition: ease-in 0.3s 0.55s;
 }
+
 .posts {
     position: relative;
     height: 450px;
@@ -275,7 +284,7 @@ a {
     position: relative;
     padding-right: 10px;
     width: 100%;
-    height: 450px;
+    height: 500px;
     text-align: right;
     background-color: #1c1c22 !important;
     padding-top: 10px;
@@ -387,31 +396,328 @@ a {
 .card3-body {
     padding: 22px 10px;
 }
+
 .posts2 {
-    position: relative;
-    padding-right: 10px;
     width: 100%;
-    text-align: right;
+    height: 4600px;
+    margin-left: 360px;
     background-color: #1c1c22 !important;
-    padding-top: 10px;
 }
 
-.posts2 .title {
-    text-align: right;
-    margin-right: 10px;
-    font-size: 25px;
+.p1 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
 }
 
-.posts2 .wraper {
-    display: inline-block;
-    justify-content: right;
-    margin-right: 10px;
-    padding-left: 40px;
-}
-
-.posts2 h3 {
+.p1 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 550px;
     font-family: iranyekan;
 }
+
+.t1 {
+    width: 300px;
+    height: 450px;
+    margin-left: 670px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introdoction {
+    display: inline-block;
+    color: #a2a2a2;
+    margin-left: 500px;
+}
+
+.introdoction1 {
+    display: inline-block;
+    color: #a2a2a2;
+    margin-left: 20px;
+}
+
+.bd {
+    text-align: right;
+    color: #d5d5d5;
+    margin-right: 360px;
+}
+
+.dastan {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-family: url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+
+.intro {
+    margin-bottom: 25px;
+    display: inline-block;
+    padding-left: 220px;
+    padding-right: 50px;
+    font-family: iranyekan;
+}
+
+.download {
+    width: 130px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #23232b;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 560px;
+    border: 2px solid #0f9a00;
+    margin-left: 25px;
+    margin-top: -20px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    font-family: iranyekan;
+}
+
+.download:hover {
+    background-color: #0f9a00;
+    transition: ease 0.3s;
+}
+
+.p11 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p11 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 470px;
+    font-family: iranyekan;
+}
+
+.p2 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p2 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 600px;
+    font-family: iranyekan;
+}
+
+.dastan1 {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+
+    font-weight: bold;
+}
+
+.dastan1 {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-family: url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+
+.p22 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p22 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 520px;
+    font-family: iranyekan;
+}
+
+.p222 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 570px;
+    font-family: iranyekan;
+}
+
+.p222 p {
+    padding-top: 20px;
+}
+
+.p2222 {
+    width: 1000px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p2222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 470px;
+    font-family: iranyekan;
+}
+
+.p22222 {
+    width: 980px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p22222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 510px;
+    font-family: iranyekan;
+}
+
+.p222222 {
+    width: 980px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p222222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 370px;
+    font-family: iranyekan;
+}
+
+.p222222 {
+    width: 980px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p222222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 390px;
+    font-family: iranyekan;
+}
+
+.p2222222 {
+    width: 980px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p2222222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 320px;
+    font-family: iranyekan;
+}
+
+.p22222222 {
+    width: 980px;
+    height: 500px;
+    background-color: #23232b !important;
+    margin-top: 20px;
+}
+
+.p22222222 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -420px;
+    margin-left: 370px;
+    font-family: iranyekan;
+}
+
+.dastan11 {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-family: url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+
+.dastan111 {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-family: url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+
+.dastan1111 {
+    width: 590px;
+    height: 100px;
+    background-color: #323232;
+    margin-left: 65px;
+    text-align: right;
+    padding-top: 7px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 15px;
+    font-family: url(./fonts/Cinema.Font.ttf);
+    font-weight: bold;
+}
+
 #irani {
     text-decoration: none;
 }

@@ -149,7 +149,7 @@ a{
 }
 .download:hover{
     background-color: #0f9a00;
-    transition: ease-in 0.3s 0.55s;
+    transition: ease 0.3s ;
 }
 .p11{
     width: 980px;
