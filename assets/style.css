@@ -10,6 +10,7 @@
         url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -946,43 +947,30 @@ footer {
 }
 
 .address {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: right;
-    margin-right: 10px;
-    border: 2px solid #d0d0d0;
-    width: 450px;
-    margin-left: 690px;
-    border-radius: 10px;
-    padding-right: 10px;
-    margin-top: 15px;
+    font-size: 15px;
+    font-family: iranyekan;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .teleghpone {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: right;
-    margin-right: 10px;
-    border: 2px solid #d0d0d0;
-    width: 500px;
-    margin-left: 640px;
-    border-radius: 10px;
-    padding-right: 10px;
-    margin-top: 15px;
+    font-size: 15px;
+    font-family: iranyekan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    margin-top: 20px;
 }
 
 .tel {
-    margin-left: 500px;
-    margin-bottom: -40px;
+    margin-left: 600px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
 .tel1 {
     display: inline-block;
-    margin-bottom: -40px;
     margin-right: 10px;
 }
