@@ -10,18 +10,6 @@
         url('../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: statik;
-    font-style: normal;
-    font-weight: bold;
-    src: url('../fonts/static/EduAUVICWANTGuides-SemiBold.ttf');
-    src: url('../fonts/static/EduAUVICWANTGuides-Medium.ttf') format('embedded-ttf'),
-        /* IE6-8 */
-        url('../fonts/static/EduAUVICWANTGuides-Bold.ttf') format('ttf'),
-        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-        url('../fonts/OFL.txt') format('truetype');
-}
-
 * {
     box-sizing: border-box;
 }

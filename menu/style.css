@@ -20,48 +20,64 @@ body{
     color:#fff;
     overflow-x: hidden;
 }
-.menu{
-    background-color: #000000;
-font-size: 15px;
-color: #e8e8e8;
-font-weight: bold;
-text-align: right;
-margin-top: auto;
-display: inline;
-font-family: iranyekan;
+.menu {
+    background-color: #101014;
+    font-size: 15px;
+    padding-top: -30px;
+    color: #afafaf;
+    text-align: right;
+    display: inline;
+    font-family: iranyekan;
 }
-main{
-    padding-top: 60px;
+
+.menu a {
+    text-decoration: none;
 }
-.logo{
+
+.logo {
     width: 50px;
     height: 50px;
     display: inline;
-}
-.menu ul{
-    margin: 0px;
-}
-.menu ul li{
-    display: inline-block;
     margin-right: 10px;
+    margin-top: 5px;
 }
-.menu ul li:hover{
-    background-color: #585858;
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.menu ul {
+    margin-top: -40px;
+}
+
+.menu ul li:hover {
     color: #ffffff;
+    transition: ease-in 0.2s;
 }
-.sub_menu{
-    background-color: #000000;
-    color: #e8e8e8;
-    display:none;
+
+.sub_menu {
+    background-color: #101014;
+    color: #949494;
+    display: none;
     position: absolute;
-    margin-left: -200px !important;
+    margin-right: -50px !important;
 }
-.sub_menu li{
+
+.sub_menu li {
     width: 100px;
-    margin: 0px !important;    
 }
-.dropdown_menu:hover ul{
-display: block;
+
+.dropdown_menu:hover ul {
+    display: block;
+}
+
+.dropdown_menu:hover li {
+    display: block;
+}
+
+.dropdown_menu a {
+    text-decoration: none;
 }
 a{
     color: inherit;
