@@ -138,16 +138,12 @@ a {
     margin-left: 210px;
 }
 
-.main-2 {
-    background-color: #1c1c22;
-}
-
 .posts {
     width: 980px;
     height: 5000px;
     margin-top: -20px;
     margin-bottom: 20px;
-    margin-left: 300px;
+    margin-left: 310px;
     background-color: #1c1c22;
 }
 
@@ -240,7 +236,7 @@ a {
 
 .main-2 {
     display: inline-block;
-    width: 100%;
+    width: 10000px;
     height: 5180px;
     background-color: #1c1c22;
 }
@@ -248,7 +244,8 @@ a {
 .main-sidebar {
     display: block;
     margin-top: -5020px;
-    width: 290px;
+    width: 310px;
+    background-color: #1c1c22;
 }
 
 .title-1 {
@@ -264,7 +261,7 @@ a {
     text-align: right;
     margin-top: 20px;
     color: #ffffff;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .mh-1 {
@@ -704,7 +701,6 @@ a {
 footer {
     width: 100%;
     height: 300px;
-    margin-top: -12px;
     background-color: #1c1c22;
 }
 
