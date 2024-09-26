@@ -82,6 +82,51 @@ body{
 a{
     color: inherit;
 }
+.elan {
+    margin-top: 3%;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+
+.elan td {
+    text-align: center;
+}
+
+.elan img {
+    max-width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.elan img:hover {
+    overlay: 25%;
+}
+
+.elan a {
+    z-index: 10;
+}
+
+.satr3 {
+    margin-left: 150px;
+}
+
+.cars3 {
+    margin-left: 50px;
+}
+
+.DaftarYaddasht {
+    margin-left: 50px;
+}
+
+.mankan {
+    margin-left: 210px;
+}
+.main-2{
+    background-color: #1c1c22;
+}
 .posts{
     width: 980px;
     height:5000px;
