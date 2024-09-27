@@ -141,11 +141,11 @@ main{
 }
 
 .posts {
-    width: 980px;
+    width: 1000px;
     height: 5000px;
     margin-top: -20px;
     margin-bottom: 20px;
-    margin-left: 310px;
+    margin-left: 350px;
     background-color: #1c1c22;
 }
 
@@ -719,8 +719,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    border-top: 3px solid #fff;
-    border-bottom: 3px solid #fff;
     margin-top: 20px;
 }
 
