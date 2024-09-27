@@ -96,11 +96,13 @@ a {
 }
 
 .elan {
-    margin-top: 3%;
-    margin-left: 75px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    background-color: #101014;
+    width: 100%;
 }
-
+main{
+    background-color: #1c1c22;
+}
 .elan td {
     text-align: center;
 }
@@ -236,8 +238,8 @@ a {
 
 .main-2 {
     display: inline-block;
-    width: 10000px;
-    height: 5180px;
+    width: 100%;
+    height: 10000px;
     background-color: #1c1c22;
 }
 
