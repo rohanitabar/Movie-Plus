@@ -68,6 +68,7 @@ body {
 
 .sub_menu li {
     width: 100px;
+    padding-top:10px ;
 }
 
 .dropdown_menu:hover ul {
@@ -99,10 +100,7 @@ a {
 .elan img {
     max-width: 100%;
     height: 250px;
-    margin-top: 10px;
     border-radius: 10px;
-    transform: scale(1);
-    opacity: 1;
 }
 
 .elan img:hover {
