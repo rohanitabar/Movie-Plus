@@ -69,13 +69,24 @@ body {
     text-align: center;
 }
 
+.dropdown_menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown_menu ul li:hover {
+    color: #fff;
+}
+
 .sub_menu {
     background-color: #101014;
     color: #949494;
     display: none;
     position: absolute;
-    margin-right: -50px !important;
+    margin-right: -40px !important;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .sub_menu li {
@@ -91,7 +102,7 @@ body {
 
 .dropdown_menu:hover li {
     display: block;
-    
+
 }
 
 .dropdown_menu a {
@@ -107,9 +118,11 @@ a {
     background-color: #101014;
     width: 100%;
 }
-main{
+
+main {
     background-color: #1c1c22;
 }
+
 .elan td {
     text-align: center;
 }
@@ -212,10 +225,7 @@ main{
 .card1-body {
     padding: 22px 10px;
 }
-.thumbnail:hover{
-    transition: ease-in 0.3s;
-    opacity: 80%;
-}
+
 .moshahedeh {
     width: 70px;
     height: 20px;
