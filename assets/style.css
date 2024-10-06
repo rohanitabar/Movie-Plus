@@ -58,9 +58,13 @@ body {
     transition: ease-in 0.2s;
 }
 
-.dropdown_menu {
-    margin: 0px;
-    padding: 0px;
+.dropdown_menu ul {
+    margin-top: 0px;
+}
+
+
+.dropdown_menu ul li {
+    text-align: right;
 }
 
 .dropdown_menu ul li:hover {
@@ -75,14 +79,6 @@ body {
     margin-right: -40px !important;
     margin: 0px;
     padding: 0px;
-}
-
-.sub_menu ul li {
-    text-align: center;
-}
-
-.sub_menu ul {
-    text-align: center;
 }
 
 .sub_menu li {
