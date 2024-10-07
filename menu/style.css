@@ -66,12 +66,22 @@ body {
 .menu ul li:hover {
     color: #ffffff;
     transition: ease-in 0.2s;
-    text-align: center;
+    text-align: right;
 }
 
 .dropdown_menu {
     margin: 0px;
     padding: 0px;
+}
+
+
+.dropdown_menu ul {
+    margin-top: 0px;
+}
+
+
+.dropdown_menu ul li {
+    text-align: right;
 }
 
 .dropdown_menu ul li:hover {
@@ -84,7 +94,7 @@ body {
     display: none;
     position: absolute;
     margin-right: -40px !important;
-    text-align: center;
+    text-align: right;
     margin: 0px;
     padding: 0px;
 }
@@ -92,12 +102,12 @@ body {
 .sub_menu li {
     width: 100px;
     padding-top: 10px;
-    text-align: center;
+    text-align: right;
 }
 
 .dropdown_menu:hover ul {
     display: block;
-    text-align: center;
+    text-align: right;
 }
 
 .dropdown_menu:hover li {
