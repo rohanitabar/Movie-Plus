@@ -87,16 +87,26 @@ body {
     text-align: center;
 }
 
+.sub_menu:hover ul{
+    transition: ease-in 0.3s ;
+}
+
 .dropdown_menu:hover ul {
     display: block;
+    transition: ease-in 0.3s;
 }
 
 .dropdown_menu:hover li {
     display: block;
+    transition: ease-in 0.3s;
 }
 
 .dropdown_menu a {
     text-decoration: none;
+}
+
+.h12{
+    margin-bottom: 5px;
 }
 
 a {
