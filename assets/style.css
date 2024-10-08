@@ -110,10 +110,12 @@ body {
 
 .menu a:hover {
     color: white; /* تغییر رنگ متن هنگام هاور */
+    background-color: #101014;
 }
 
 .menu li:hover > a {
     color: white; /* تغییر رنگ متن اصلی هنگام هاور */
+    background-color: #101014;
 }
 
 .sub_menu {
@@ -139,6 +141,8 @@ body {
 
 .sub_menu:hover ul{
     transition: ease-in 0.3s ;
+    background-color: #101014;
+
 }
 
 .dropdown_menu:hover ul {
@@ -224,6 +228,10 @@ a {
     margin-top: 40px;
     font-size: 15px;
     text-align: center;
+}
+
+.film_1:hover option{
+    background-color: #101014;
 }
 
 .janr {
