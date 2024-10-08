@@ -71,15 +71,65 @@ body {
     color: #fff;
 }
 
-.sub_menu {
-    background-color: #101014;
-    color: #949494;
-    display: none;
-    position: absolute;
-    margin-right: -40px !important;
-    margin: 0px;
-    padding: 0px;
+.menu {
+    position: relative;
 }
+
+.sub_menu {
+    display: none; /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
+    position: absolute; /* موقعیت‌گذاری مطلق */
+    background-color: rgba(255, 255, 255, 0.8); /* رنگ پس‌زمینه با شفافیت */
+    backdrop-filter: blur(10px); /* بلوری کردن پس‌زمینه */
+    border-radius: 5px; /* گرد کردن گوشه‌ها */
+    padding: 10px; /* فاصله داخلی */
+    z-index: 1000; /* نمایش در بالای دیگر عناصر */
+}
+
+.dropdown_menu:hover .sub_menu {
+    display: block; /* نمایش ساب‌منو هنگام هاور */
+    margin-right: -30px;
+    margin-top: 0px;
+}
+
+.menu ul {
+    list-style: none; /* حذف نقاط لیست */
+    padding: 0; /* حذف فاصله داخلی */
+    margin: 0; /* حذف فاصله خارجی */
+    margin-right: 30px;
+    margin-top: -45px;
+}
+
+.menu li {
+    position: relative; /* برای نمایش ساب‌منو */
+}
+
+.menu a {
+    text-decoration: none; /* حذف زیرخط لینک‌ها */
+    color: #949494; /* رنگ متن لینک‌ها */
+}
+
+.menu a:hover {
+    color: white; /* تغییر رنگ متن هنگام هاور */
+}
+
+.menu li:hover > a {
+    color: white; /* تغییر رنگ متن اصلی هنگام هاور */
+}
+
+.sub_menu {
+    display: none; /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
+    position: absolute; /* موقعیت‌گذاری مطلق */
+    background-color: rgba(0, 0, 0, 0.7); /* رنگ پس‌زمینه مشکی با شفافیت */
+    backdrop-filter: blur(10px); /* بلوری کردن پس‌زمینه */
+    border-radius: 10px; /* گرد کردن گوشه‌ها */
+    padding: 10px; /* فاصله داخلی */
+    z-index: 1000; /* نمایش در بالای دیگر عناصر */
+}
+
+.dropdown_menu:hover .sub_menu {
+    display: block; /* نمایش ساب‌منو هنگام هاور */
+}
+
 
 .sub_menu li {
     width: 100px;
