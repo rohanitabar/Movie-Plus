@@ -28,6 +28,7 @@ body {
     margin: 0px;
     background-color: #101014;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .menu {
@@ -141,8 +142,8 @@ main {
 }
 
 .elan img {
-    max-width: 100%;
-    height: 250px;
+    max-width: 300px;
+    height: 200px;
     border-radius: 10px;
 }
 
