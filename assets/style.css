@@ -76,59 +76,83 @@ body {
 }
 
 .sub_menu {
-    display: none; /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
-    position: absolute; /* موقعیت‌گذاری مطلق */
-    background-color: rgba(255, 255, 255, 0.8); /* رنگ پس‌زمینه با شفافیت */
-    backdrop-filter: blur(10px); /* بلوری کردن پس‌زمینه */
-    border-radius: 5px; /* گرد کردن گوشه‌ها */
-    padding: 10px; /* فاصله داخلی */
-    z-index: 1000; /* نمایش در بالای دیگر عناصر */
+    display: none;
+    /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
+    position: absolute;
+    /* موقعیت‌گذاری مطلق */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* رنگ پس‌زمینه با شفافیت */
+    backdrop-filter: blur(10px);
+    /* بلوری کردن پس‌زمینه */
+    border-radius: 5px;
+    /* گرد کردن گوشه‌ها */
+    padding: 10px;
+    /* فاصله داخلی */
+    z-index: 1000;
+    /* نمایش در بالای دیگر عناصر */
 }
 
 .dropdown_menu:hover .sub_menu {
-    display: block; /* نمایش ساب‌منو هنگام هاور */
+    display: block;
+    /* نمایش ساب‌منو هنگام هاور */
     margin-right: -30px;
     margin-top: 0px;
 }
 
 .menu ul {
-    list-style: none; /* حذف نقاط لیست */
-    padding: 0; /* حذف فاصله داخلی */
-    margin: 0; /* حذف فاصله خارجی */
+    list-style: none;
+    /* حذف نقاط لیست */
+    padding: 0;
+    /* حذف فاصله داخلی */
+    margin: 0;
+    /* حذف فاصله خارجی */
     margin-right: 30px;
     margin-top: -45px;
 }
 
 .menu li {
-    position: relative; /* برای نمایش ساب‌منو */
+    position: relative;
+    /* برای نمایش ساب‌منو */
 }
 
 .menu a {
-    text-decoration: none; /* حذف زیرخط لینک‌ها */
-    color: #949494; /* رنگ متن لینک‌ها */
+    text-decoration: none;
+    /* حذف زیرخط لینک‌ها */
+    color: #949494;
+    /* رنگ متن لینک‌ها */
 }
 
 .menu a:hover {
-    color: white; /* تغییر رنگ متن هنگام هاور */
+    color: white;
+    /* تغییر رنگ متن هنگام هاور */
 }
 
-.menu li:hover > a {
-    color: white; /* تغییر رنگ متن اصلی هنگام هاور */
+.menu li:hover>a {
+    color: white;
+    /* تغییر رنگ متن اصلی هنگام هاور */
     background-color: #101014;
 }
 
 .sub_menu {
-    display: none; /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
-    position: absolute; /* موقعیت‌گذاری مطلق */
-    background-color: rgba(0, 0, 0, 0.7); /* رنگ پس‌زمینه مشکی با شفافیت */
-    backdrop-filter: blur(10px); /* بلوری کردن پس‌زمینه */
-    border-radius: 10px; /* گرد کردن گوشه‌ها */
-    padding: 10px; /* فاصله داخلی */
-    z-index: 1000; /* نمایش در بالای دیگر عناصر */
+    display: none;
+    /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
+    position: absolute;
+    /* موقعیت‌گذاری مطلق */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* رنگ پس‌زمینه مشکی با شفافیت */
+    backdrop-filter: blur(10px);
+    /* بلوری کردن پس‌زمینه */
+    border-radius: 10px;
+    /* گرد کردن گوشه‌ها */
+    padding: 10px;
+    /* فاصله داخلی */
+    z-index: 1000;
+    /* نمایش در بالای دیگر عناصر */
 }
 
 .dropdown_menu:hover .sub_menu {
-    display: block; /* نمایش ساب‌منو هنگام هاور */
+    display: block;
+    /* نمایش ساب‌منو هنگام هاور */
 }
 
 
@@ -138,8 +162,8 @@ body {
     text-align: center;
 }
 
-.sub_menu:hover ul{
-    transition: ease-in 0.3s ;
+.sub_menu:hover ul {
+    transition: ease-in 0.3s;
     background-color: #101014;
 
 }
@@ -158,7 +182,7 @@ body {
     text-decoration: none;
 }
 
-.h12{
+.h12 {
     padding-bottom: 10px;
 }
 
@@ -229,7 +253,7 @@ a {
     text-align: center;
 }
 
-.film_1:hover option{
+.film_1:hover option {
     background-color: #101014;
 }
 
@@ -1032,6 +1056,38 @@ a {
 
 .moshahedeh1:hover {
     color: #008cff;
+}
+
+.page_Number {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 285px;
+    text-align: center;
+    width: 971px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #23232b;
+    direction: rtl;
+    padding-top: 20px;
+}
+
+.p_N {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1px;
+    font-size: 15px;
+    font-family: iranyekan;
+    background-color: #1c1c22;
+    color: #c1c1c1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p_N:hover {
+    background-color: #0f9a00;
+    transition: ease-in-out 0.3s;
 }
 
 footer {
