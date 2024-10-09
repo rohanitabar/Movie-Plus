@@ -173,6 +173,11 @@ main {
     margin-left: 210px;
 }
 
+.bi{
+    margin-left: 0px; 
+    width: 300px;
+}
+
 .posts {
     width: 1000px;
     height: 5000px;
