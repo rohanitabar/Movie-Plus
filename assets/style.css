@@ -110,7 +110,6 @@ body {
 
 .menu a:hover {
     color: white; /* تغییر رنگ متن هنگام هاور */
-    background-color: #101014;
 }
 
 .menu li:hover > a {
