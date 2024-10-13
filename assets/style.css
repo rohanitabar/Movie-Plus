@@ -38,6 +38,8 @@ main{
 
 .menu a {
     text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .logo {
@@ -51,10 +53,19 @@ main{
 .menu ul li {
     display: inline-block;
     margin-right: 35px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.menu li{
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .menu ul {
     margin-top: -40px;
+    -webkit-user-select: none;
+    user-select:none;
 }
 
 .menu ul li:hover {
@@ -116,6 +127,8 @@ main{
     /* حذف زیرخط لینک‌ها */
     color: #949494;
     /* رنگ متن لینک‌ها */
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .menu a:hover {
@@ -1035,6 +1048,8 @@ a {
     padding-top: 50px;
     font-family: iranyekan;
     transition: ease-in 0.2s;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .moshahedeh1 {
@@ -1045,6 +1060,8 @@ a {
     margin-left: 50px;
     font-family: iranyekan;
     transition: ease-in 0.2s;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .moshahedeh:hover {

@@ -43,6 +43,8 @@ body {
 
 .menu a {
     text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .logo {
@@ -267,6 +269,8 @@ main {
 
 .moshahedeh:hover {
     color: #008cff;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .moshahedeh1:hover {
