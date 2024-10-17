@@ -184,7 +184,7 @@ main {
     width: 1000px;
     height: 5000px;
     margin-top: -20px;
-    margin-left: 350px;
+    margin-left: 470px;
     background-color: #1c1c22;
 }
 
@@ -286,9 +286,10 @@ main {
 
 .main-sidebar {
     display: block;
-    margin-top: -5020px;
+    margin-top: -5000px;
     width: 310px;
     background-color: #1c1c22;
+    margin-left: 100px;
 }
 
 .title-1 {
@@ -337,6 +338,7 @@ main {
 .beroz h3 {
     padding-top: 15px;
     padding-left: 75px;
+    font-size: 20px;
 }
 
 .img-1-1 {
@@ -471,7 +473,7 @@ a {
     text-align: right;
     color: #d5d5d5;
     margin-right: 330px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .dastan {
@@ -496,7 +498,7 @@ a {
     padding-left: 220px;
     padding-right: 50px;
     font-family: iranyekan;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .download {
@@ -771,6 +773,7 @@ a {
     background-color: #23232b;
     direction: rtl;
     padding-top: 20px;
+    margin-left: 400px;
 }
 
 .p_N {
@@ -793,6 +796,7 @@ a {
 }
 .top-footer{
     background-color: #1c1c22;
+    margin-left:120px;
 }
 .rahnama{
     display: inline-block;
@@ -809,7 +813,7 @@ a {
     height: 50px;
     margin-right: 40px;
     margin-bottom: 130px;
-    margin-top: -45px;
+    margin-top: -20px;
 }
 
 .text{
@@ -818,7 +822,7 @@ a {
     font-family: iranyekan;
     color: #949494;
     margin-right: 100px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .textt{
@@ -870,7 +874,6 @@ a {
 }
 
 .page{
-    margin-left: 40px;
     margin-top: -110px;
 }
 
@@ -926,5 +929,5 @@ footer {
     color: #949494;
     border-top: 0.3px solid #949494;
     font-family: iranyekan;
-    font-size: 13px;
+    font-size: 10px;
 }
