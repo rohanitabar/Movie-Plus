@@ -457,18 +457,21 @@ a {
     display: inline-block;
     color: #a2a2a2;
     margin-left: 500px;
+    font-size: 20px;
 }
 
 .introdoction1 {
     display: inline-block;
     color: #a2a2a2;
     margin-left: 20px;
+    font-size: 20px;
 }
 
 .bd {
     text-align: right;
     color: #d5d5d5;
     margin-right: 330px;
+    font-size: 20px;
 }
 
 .dastan {
@@ -483,6 +486,8 @@ a {
     border-radius: 15px;
     font-family: url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .intro {
@@ -491,6 +496,7 @@ a {
     padding-left: 220px;
     padding-right: 50px;
     font-family: iranyekan;
+    font-size: 20px;
 }
 
 .download {
@@ -557,7 +563,8 @@ a {
     box-sizing: border-box;
     padding-right: 10px;
     border-radius: 15px;
-
+    font-size: 13px;
+    padding-top: 5px;
     font-weight: bold;
 }
 
@@ -573,6 +580,8 @@ a {
     border-radius: 15px;
     font-family: url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .p22 {
@@ -711,6 +720,8 @@ a {
     border-radius: 15px;
     font-family: url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .dastan111 {
@@ -725,6 +736,8 @@ a {
     border-radius: 15px;
     font-family: url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .dastan1111 {
@@ -739,6 +752,8 @@ a {
     border-radius: 15px;
     font-family: url(./fonts/Cinema.Font.ttf);
     font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .p_nn{
