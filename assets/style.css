@@ -108,25 +108,19 @@ main{
 
 .menu ul {
     list-style: none;
-    /* حذف نقاط لیست */
     padding: 0;
-    /* حذف فاصله داخلی */
     margin: 0;
-    /* حذف فاصله خارجی */
     margin-right: 30px;
     margin-top: -45px;
 }
 
 .menu li {
     position: relative;
-    /* برای نمایش ساب‌منو */
 }
 
 .menu a {
     text-decoration: none;
-    /* حذف زیرخط لینک‌ها */
     color: #949494;
-    /* رنگ متن لینک‌ها */
     -webkit-user-select: none;
     user-select: none;
 }
@@ -134,35 +128,25 @@ main{
 .menu a:hover {
     color: white;
     transition: ease-in 0.3s;
-    /* تغییر رنگ متن هنگام هاور */
 }
 
 .menu li:hover>a {
     color: white;
-    /* تغییر رنگ متن اصلی هنگام هاور */
     background-color: #101014;
 }
 
 .sub_menu {
     display: none;
-    /* مخفی بودن ساب‌منو به صورت پیش‌فرض */
     position: absolute;
-    /* موقعیت‌گذاری مطلق */
     background-color: rgba(0, 0, 0, 0.7);
-    /* رنگ پس‌زمینه مشکی با شفافیت */
     backdrop-filter: blur(10px);
-    /* بلوری کردن پس‌زمینه */
     border-radius: 10px;
-    /* گرد کردن گوشه‌ها */
     padding: 10px;
-    /* فاصله داخلی */
     z-index: 1000;
-    /* نمایش در بالای دیگر عناصر */
 }
 
 .dropdown_menu:hover .sub_menu {
     display: block;
-    /* نمایش ساب‌منو هنگام هاور */
 }
 
 
