@@ -132,67 +132,62 @@
         </table>
 
         <div class="box">
-            <form action="#" class="film_1">
-                <select name="film" class="film_1">
-                    <option value="همه">همه</option>
-                    <option value="فیلم ">فیلم</option>
-                    <option value="سریال">سریال</option>
-                </select>
-            </form>
+              <div class="btn-group film_1">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  فیلم یا سریال
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">همه</a></li>
+                  <li><a class="dropdown-item" href="#">فیلم</a></li>
+                  <li><a class="dropdown-item" href="#">سریال</a></li>
+                </ul>
+              </div>
 
+              <div class="btn-group janr">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  ژانر
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">همه</a></li>
+                  <li><a class="dropdown-item" href="#">فیلم</a></li>
+                  <li><a class="dropdown-item" href="#">سریال</a></li>
+                </ul>
+              </div>
 
-            <div class="janr">
-                <form action="#">
-                    <select name="janr" id="" class="janr">
-                        <option value="همه">همه</option>
-                        <option value="اکشن">اکشن</option>
-                        <option value="جنایی">جنایی</option>
-                        <option value="ترسنک">ترسناک</option>
-                        <option value="کمدی">کمدی</option>
-                        <option value="عاشقانه">عاشقانه</option>
-                        <option value="هندی">هندی</option>
-                        <option value="هیجان انگیز">هیجان انگیز</option>
-                        <option value="حادثه ای">حادثه ای</option>
-                        <option value="جنایی">جنایی</option>
-                        <option value="درام">درام</option>
-                    </select>
-                </form>
-            </div>
+              <div class="btn-group country">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  کشور
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">همه</a></li>
+                  <li><a class="dropdown-item" href="#">فیلم</a></li>
+                  <li><a class="dropdown-item" href="#">سریال</a></li>
+                </ul>
+              </div>
 
-            <div class="country">
-                <form action="#">
-                    <select name="country" id="" class="country">
-                        <option value="همه">همه</option>
-                        <option value="آمریکا">آمریکا</option>
-                        <option value="ایران">ایران</option>
-                        <option value="چین">چین</option>
-                        <option value="کره جنوبی">کره جنوبی</option>
-                        <option value="انگلستان">انگلستان</option>
-                        <option value="هند">هند</option>
-                        <option value="کانادا">کانادا</option>
-                        <option value="فرانسه">فرانسه</option>
-                        <option value="ژاپن">ژاپن</option>
-                        <option value="جمهوری دومنیکن">دومنیکن</option>
-                    </select>
-                </form>
-            </div>
-            <div>
-                <form action="#" class="type">
-                    <select name="film" class="type">
-                        <option value="همه">همه</option>
-                        <option value="دوبله ">دوبله شده</option>
-                        <option value="زیرنویس">زیرنویس فارسی</option>
-                    </select>
-                </form>
-            </div>
-            <form action="#" class="star">
-                <select name="film" class="star">
-                    <option value="0to2">صفر تا دو</option>
-                    <option value="2to5 "> دو تا پنج</option>
-                    <option value="5to7"> پنج تا هفت</option>
-                    <option value="longer7">بالای هفت</option>
-                </select>
-            </form>
+              <div class="btn-group type">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  دوبله و زیرنویس
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">همه</a></li>
+                  <li><a class="dropdown-item" href="#">فیلم</a></li>
+                  <li><a class="dropdown-item" href="#">سریال</a></li>
+                </ul>
+              </div>
+
+              <div class="btn-group star">
+                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  امتیاز
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">صفر تا دو</a></li>
+                  <li><a class="dropdown-item" href="#">دو تا پنج</a></li>
+                  <li><a class="dropdown-item" href="#">پنج تا هفت</a></li>
+                  <li><a class="dropdown-item" href="#"> بالای هفت</a></li>
+                </ul>
+              </div>
+              
             <div class="button">
                 <button class="serch">جست و جو</button>
             </div>

@@ -117,6 +117,7 @@ main{
 
 .menu li {
     position: relative;
+    margin-top: 10px;
 }
 
 .menu a {
@@ -242,9 +243,9 @@ a {
     color: #fff;
     width: 150px;
     height: 35px;
-    margin-left: 420px;
+    margin-left: 900px;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 15px;
     text-align: center;
 }
@@ -260,9 +261,9 @@ a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 330px;
+    margin-left:730px;
     font-size: 15px;
-    margin-top: 2px;
+    margin-top: -60px;
 }
 
 .janr::selection {
@@ -276,9 +277,9 @@ a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 250px;
+    margin-left: 550px;
     font-size: 15px;
-    margin-top: -24px;
+    margin-top: -108px;
 }
 
 .type {
@@ -288,9 +289,9 @@ a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 170px;
+    margin-left: 370px;
     font-size: 15px;
-    margin-top: -34px;
+    margin-top: -154px;
 }
 
 .star {
@@ -300,13 +301,13 @@ a {
     width: 150px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 90px;
+    margin-left: -330px;
     font-size: 15px;
-    margin-top: -37px;
+    margin-top: -147px;
 }
 
 .button {
-    margin-top: -45px;
+    margin-top: -100px;
 }
 
 .serch {
@@ -1262,4 +1263,30 @@ footer {
     border-top: 0.3px solid #949494;
     font-family: iranyekan;
     font-size: 10px;
+}
+
+.dropdown-menu{
+    padding: 0px;
+    border-radius: 5px;
+    background-color: #101014;
+}
+
+.dropdown-toggle{
+    background-color: #1c1c22;
+}
+
+.dropdown-item{
+    background-color: #1c1c22;
+    margin: 0px;
+    font-family: iranyekan;
+    color:#adadad;
+    border-radius: 2px;
+}
+
+.dropdown-item:hover{
+    transition: ease-in 0.2s;
+    background-color: #3b3b46;
+    margin: 0px;
+    font-family: iranyekan;
+    color:#fff;
 }
