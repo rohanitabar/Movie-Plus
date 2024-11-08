@@ -31,6 +31,10 @@ body {
     overflow-x: hidden;
 }
 
+header{
+    direction: rtl;
+}
+
 .menu {
     background-color: #101014;
     font-size: 15px;
@@ -183,8 +187,9 @@ main {
 .posts {
     width: 1000px;
     height: 5000px;
-    margin-top: -20px;
-    margin-left: 470px;
+    direction: rtl;
+    text-align: right;
+    padding-left: 3500px;
     background-color: #1c1c22;
 }
 
@@ -286,7 +291,7 @@ main {
 
 .main-sidebar {
     display: block;
-    margin-top: -5000px;
+    margin-top:-850px;
     width: 310px;
     background-color: #1c1c22;
     margin-left: 100px;
