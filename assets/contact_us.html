@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ارتباط با ما | Movie+</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.rtl.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
@@ -73,13 +74,23 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <form>
-            <input type="text" placeholder="نام و نام خانوادگی" class="First_name"><br>
-            <input type="text"placeholder="شماره همراه" class="Number"><br>
-            <input type="submit" class="Submit"><br>
-            <input type="reset" class="Cancell"><br>
-        </form>
+    <main style="margin-top: 20px; height: 552px; overflow-y:hidden; direction: rtl; font-family: iranyekan;">
+        <div style="display: flex; justify-content: center; align-items: center;">
+        <h1 style="text-align: center; margin-top: 150px;">ارتباط با </h1>
+        <img src="../img/video icon.png" width="100px" height="100px" style="margin-top: 130px; margin-right: 10px;">
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div class="mb-3" style="padding-top: 20px;">
+               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="نام و نام خانوادگی">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="مطلب شما"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-outline-light">ارسال</button>
+                <button type="cancell" class="btn btn-outline-light">انصراف</button>
+            </div>
+        </div>
     </main>
 </body>
 </html>
