@@ -473,15 +473,15 @@ a {
 .introdoction {
     display: inline-block;
     color: #a2a2a2;
-    margin-right: 330px;
+    margin-right: 30px;
     font-size: 15px;
 }
 
 .introdoction1 {
     display: inline-block;
     color: #a2a2a2;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-right: 330px;
+    font-size: 15px;
 }
 
 .bd {
