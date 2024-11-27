@@ -145,14 +145,17 @@ main {
 
 .elan td {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .elan img {
     max-width: 300px;
     height: 200px;
     border-radius: 10px;
+    margin: 0;
+    padding: 0;
 }
-
 .elan img:hover {
     overlay: 25%;
     transition: ease-in 0.3s;
@@ -180,7 +183,7 @@ main {
 }
 
 .bi{
-    margin-left: 0px; 
+    margin-left: 5px; 
     width: 300px;
 }
 
@@ -204,9 +207,10 @@ main {
 }
 
 .posts1 .title {
+    margin-top: 20px;
     text-align: right;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .posts1 .wraper {
@@ -218,7 +222,7 @@ main {
 
 .posts1 h3 {
     font-family: iranyekan;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .posts1 .card1 {
@@ -229,6 +233,7 @@ main {
     text-decoration: solid;
     text-align: center;
     font-family: iranyekan;
+    font-size: 15px;
 }
 
 .card1 .thumbnail {
@@ -361,7 +366,7 @@ main {
     font-size: 20px;
     background-color: #000000a1;
     height: 25px;
-    margin-top: -29px;
+    margin-top: -25px;
     width: 275px;
     text-align: center;
     font-weight: 500;
@@ -503,6 +508,7 @@ a {
     padding-right: 50px;
     font-family: iranyekan;
     font-size: 15px;
+    margin-right:350px ;
 }
 
 .download {
@@ -512,10 +518,9 @@ a {
     background-color: #23232b;
     font-size: 15px;
     font-weight: bold;
-    margin-right: 560px;
+    margin-right: 700px;
     border: 2px solid #0f9a00;
-    margin-left: 25px;
-    margin-top: -20px;
+    margin-top: 100px;
     transition-property: background-color;
     transition-duration: 0.3s;
     transition-delay: 0s;
@@ -888,6 +893,10 @@ a {
      filter:brightness(1.3);
 }
 
+.posts h5{
+    margin-right: 330px;
+}
+
 footer {
     width: 100%;
     height: 200px;
@@ -910,6 +919,8 @@ footer {
 .shortcut-1{
     margin-right: 80px;
     margin-top: 20px;
+    border-bottom: 0.3px solid #949494;
+
 }
 
 .link-cut{
@@ -927,10 +938,9 @@ footer {
 
 .agahi{
     width: 1250px;
-    margin-top: 30px;
+    margin-bottom: -60px;
     margin-right: 20px;
     color: #949494;
-    border-top: 0.3px solid #949494;
     font-family: iranyekan;
     font-size: 5px;
 }
