@@ -374,6 +374,7 @@ a {
     box-shadow: 5px 5px 7px 5px #474747;
     color: #fbff00;
     background-color: #09005c;
+    opacity: 80%;
 }
 .posts h3 {
     font-family: iranyekan;
@@ -465,6 +466,7 @@ a {
     color: #00ff95;
     background-color: #5f0404;
     box-shadow: 5px 5px 7px 5px #474747;
+    opacity: 80%;
 }
 
 .card1-body {
@@ -496,7 +498,10 @@ a {
 
 .card2:hover {
     transition: ease-in 0.2s;
-    color: #000000;
+    color: #00ff00;
+    background-color: #534000;
+    box-shadow: 5px 5px 7px 5px #424242;
+    opacity: 80%;
 }
 
 .card2-body {
@@ -530,6 +535,7 @@ a {
     background-color: #144600;
     color: #ff41ef;
     box-shadow: 5px 5px 7px 5px #474747;
+    opacity: 80%;
 }
 
 .card3-body {
