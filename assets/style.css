@@ -527,7 +527,9 @@ a {
 
 .card3:hover {
     transition: ease-in 0.2s;
-    color: #008cff;
+    background-color: #144600;
+    color: #ff41ef;
+    box-shadow: 5px 5px 7px 5px #474747;
 }
 
 .card3-body {
