@@ -67,24 +67,25 @@ header{
 .menu ul li {
     display: inline-block;
     margin-right: 35px;
-    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.menu li {
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .menu ul {
     margin-top: -40px;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .menu ul li:hover {
     color: #ffffff;
     transition: ease-in 0.2s;
-    text-align: right;
 }
-
-.dropdown_menu {
-    margin: 0px;
-    padding: 0px;
-}
-
 
 .dropdown_menu ul {
     margin-top: 0px;
@@ -99,39 +100,99 @@ header{
     color: #fff;
 }
 
+.menu {
+    position: relative;
+}
+
 .sub_menu {
-    background-color: #101014;
-    color: #949494;
     display: none;
     position: absolute;
-    margin-right: -40px !important;
-    text-align: right;
-    margin: 0px;
-    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
 }
+
+.dropdown_menu:hover .sub_menu {
+    display: block;
+    margin-right: -30px;
+    margin-top: 0px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+    margin-top: -45px;
+}
+
+.menu li {
+    position: relative;
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #949494;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.menu a:hover {
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+.menu li:hover>a {
+    color: white;
+    background-color: #101014;
+}
+
+.sub_menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.dropdown_menu:hover .sub_menu {
+    display: block;
+}
+
 
 .sub_menu li {
     width: 100px;
-    padding-top: 10px;
-    text-align: right;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sub_menu:hover ul {
+    transition: ease-in 0.3s 0.1111s;
+    background-color: #101014;
+
 }
 
 .dropdown_menu:hover ul {
     display: block;
-    text-align: right;
+    transition: ease-in 0.3s;
 }
 
 .dropdown_menu:hover li {
     display: block;
-
-}
-
-.h12{
-    padding-bottom: 10px;
+    transition: ease-in 0.3s 0.11111s;
 }
 
 .dropdown_menu a {
     text-decoration: none;
+}
+
+.h12 {
+    padding-bottom: 10px;
 }
 
 a {
