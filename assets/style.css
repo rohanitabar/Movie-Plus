@@ -575,9 +575,8 @@ a {
     font-weight: 500;
     font-family: iranyekan;
     text-align: right;
-    margin-top: 20px;
+    margin-top:-20px;
     color: #ffffff;
-    margin-right: 20px;
 }
 
 .mh-1 {
@@ -605,6 +604,7 @@ a {
     font-family: iranyekan;
     box-shadow: #22232c;
     margin-left: 1px;
+    margin-left: 15px;
 }
 
 .beroz h3 {
@@ -696,6 +696,8 @@ a {
     color: #a7a7a7;
     box-sizing: border-box;
     margin-right: 10px;
+        -webkit-user-select: none;
+            user-select: none;
 }
 
 .doble-1:hover {

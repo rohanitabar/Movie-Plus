@@ -477,6 +477,7 @@ main {
     font-family: iranyekan;
     box-shadow: #22232c;
     margin-left: 1px;
+    margin-left: 10px;
 }
 
 .beroz h3 {
@@ -494,6 +495,7 @@ main {
     height: 100px;
     border-radius: 5px;
     position: relative;
+    margin-left: 10px;
 }
 
 .ti-1 {
@@ -507,7 +509,7 @@ main {
     font-weight: 500;
     box-sizing: border-box;
     padding-top: 2px;
-    font-family: statik;
+    font-family: iranyekan;
 }
 
 .img-2 {
@@ -566,6 +568,8 @@ main {
     color: #a7a7a7;
     box-sizing: border-box;
     margin-right: 10px;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .doble-1:hover {
