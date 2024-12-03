@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>گشت ارشاد 2|Movie+ </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../assets/bootstrap.rtl.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
@@ -45,46 +46,38 @@
     <main>
       
       <div class="first_photo">
-        <img src="../img/gasht_e2.jpg" width="1260px" height="700px">
+        <img src="../img/gasht_e2.jpg" width="1360px" height="700px" style="margin-right: 50px;">
      </div>
-      <img src="../img/gasht2.jpg" class="pooster2"  >
+      <img src="../img/gasht2.jpg" class="pooster2" style="margin-right: 60px;">
       <h1 class="title_pooster">گشت ارشاد 2</h1>
-    <div class="introdoction2">
-      <h5 class="h1"> کارگردان: سعید سهیلی</h5>
+    <div class="introdoction" style="margin-right: 300px;">
+      <h5 class="h7"> کارگردان: سعید سهیلی</h5>
       <h5 class="IMDB">IMDB: 5.7</h5>
       <h5 class="like">رضایت مندی:%87</h5>
     </div>
       <h5 class="bazigar">بازیگران : حمید فرخ نژاد ، پولاد کیمیایی ، ساعد سهیلی ، ترلان پروانه</h5>
-        <video src="../video/ccd40ea7d5c9cebd5b70bd45033532fa45035994-480p.mp4" controls autoplay class="trailer2"></video>
+        <br><br><br><br><br><br><br>
+      <video src="../video/ccd40ea7d5c9cebd5b70bd45033532fa45035994-480p.mp4" style="margin-right: 60px;" controls autoplay class="trailer2"></video>
 
-        <div class="download">
-          <button class="online">
-            پخش آنلاین
-          </button>
-          <button class="p">
-            دانلود 360 
-          </button>
-          <button class="p">
-            دانلود 480 
-          </button>
-          <button class="p">
-            دانلود 720 
-          </button>
-            <div class="text">فیلم ایرانی</div>
+        <div class="text">فیلم ایرانی</div>
+        <div class="download" style="margin-bottom: 20px;">
+          <button type="button" class="btn btn-outline-warning" style="height: 50px; margin-top: 40px;">پخش آنلاین</button>
+          <button type="button" class="btn btn-success p">دانلود 360</button>
+          <button type="button" class="btn btn-success p">دانلود 480</button>
+          <button type="button" class="btn btn-success p">دانلود 720</button>
+
         </div>
-
-        <footer>
-          <div class="coment_title">:نام و نام خانوادگی</div>
-          <form action="#" method="post" name="coment">  
-            <textarea name="description" id="coment_box" rows="1"></textarea>
-          </form>
-
-          <div class="coment_title">:نظر شما</div>
-          <form action="#" method="post" name="coment">  
-            <textarea name="description" id="coment_box" rows="3"></textarea>
-          </form>
-          <button type="submit" class="submit">ارسال نظر</button>
-        </footer>
     </main>
+        <footer >
+          <div class="mb-3" style="width: 1100px; margin-right: 200px;">
+            <label for="exampleFormControlInput1" class="form-label">نام و نام خانوادگی</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3" style="width: 1100px; margin-right: 200px;">
+            <label for="exampleFormControlTextarea1" class="form-label">نظر شما</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-warning" style="width: 80px; margin-right: 700px;">ارسال</button>
+        </footer>
 </body>
 </html>
